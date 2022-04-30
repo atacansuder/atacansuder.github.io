@@ -1,0 +1,75 @@
+.about_container{
+    width: 100%;
+
+    padding-top: 5rem;
+
+    display: flex;
+    justify-content: center;
+
+    color: white;
+
+    font-family: 'Poppins', sans-serif;
+
+}
+
+.banner{
+    width: 85%;
+}
+
+.name_header{
+    width: 100%;
+    margin-bottom: 10px;
+    font-size: 60px;
+    text-align: center;
+}
+
+.profession_header{
+    width: 100%;
+    font-weight: normal;
+    text-align: center;
+}
+
+.socials{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 50px;
+    list-style-type: none;
+    padding: 0;
+}
+
+.social_link{
+    color: white;
+}
+
+.social_link:hover{
+    color: rgb(102, 191, 227);
+}
+
+.info{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    gap: 15px;
+}
+
+.me{
+    border-radius: 50%;
+    float: left;
+}
+
+.me_info{
+    max-width: 600px;
+    text-align: left;
+}
+
+@media (max-width: 800px) {
+    .info{
+        flex-direction: column;
+    }
+    
+}

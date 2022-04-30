@@ -1,0 +1,28 @@
+.projects__container{
+    width: 85%;
+    min-width: 350px;
+
+    
+    padding-top: 50px;
+    padding-bottom: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    font-family: 'Poppins', sans-serif;
+
+}
+
+.title{
+    color: rgb(102, 191, 227);
+}
+
+.projects_container{
+    width: 75%;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}

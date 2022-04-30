@@ -1,0 +1,34 @@
+.project_container,
+.container_last{
+    width: 85%;
+    min-width: 300px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.container_last{
+    border-bottom: none;
+}
+
+.project_title{
+    color: rgb(216, 219, 224);
+}
+
+.technologies{
+    color: rgb(216, 219, 224);
+}
+
+.description{
+    color: rgb(190, 195, 204);
+    margin: 10px 0px 5px 0px;
+}
+
+.link{
+    display: flex;
+    align-items: center;
+    color: rgb(102, 191, 227);
+}
+
+.link:hover{
+    color: rgb(0, 151, 211);
+}
