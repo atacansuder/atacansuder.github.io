@@ -7,10 +7,10 @@ import Projects from "./components/projects";
 
 function App() {
   return (
-    <div className="App">
+    <div className="App" id="home">
       <Header />
-      <About />
-      <Projects />
+      <About id="about" />
+      <Projects id="projects" />
     </div>
   );
 }
