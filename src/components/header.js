@@ -11,6 +11,9 @@ function Header() {
         <HashLink className="router_link" to="#about">
           <span className="link">About</span>
         </HashLink>
+        <HashLink className="router_link" to="#experience">
+          <span className="link">Experience</span>
+        </HashLink>
         <HashLink className="router_link" to="#projects">
           <span className="link">Projects</span>
         </HashLink>
