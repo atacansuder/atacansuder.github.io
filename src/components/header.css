@@ -49,3 +49,9 @@
 .router_link:hover{
     color: rgb(0, 151, 211);
 }
+
+@media (max-width: 800px) {
+    .nav{
+        gap: 25px;
+    }
+}
