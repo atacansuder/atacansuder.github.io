@@ -7,7 +7,7 @@ function About() {
     <section className="about_container" id="about">
       <div className="banner">
         <h1 className="name_header">Atacan Süder</h1>
-        <h3 className="profession_header">Computer Science Student</h3>
+        <h3 className="profession_header">Frontend Developer</h3>
         <br />
         <ul className="socials">
           <li>
@@ -24,24 +24,15 @@ function About() {
             </a>
           </li>
           <li>
-            <a className="social_link" href={"mailto: s6aasued@uni-bonn.de"}>
+            <a className="social_link" href={"mailto: atacansuderr@gmail.com"}>
               <BsEnvelopeFill size={24} />
             </a>
           </li>
         </ul>
         <div className="info" id="about">
-          <img
-            src="https://media-exp1.licdn.com/dms/image/C4E03AQHps7mVYcYLSw/profile-displayphoto-shrink_800_800/0/1634231764580?e=1656547200&v=beta&t=un05gW83Pfy34HNFnmQjOZkdxB8-GSbSmk09JePiugs"
-            height={100}
-            width={100}
-            className="me"
-          />
           <p className="me_info">
-            I am a computer science student currently studying at the University
-            of Bonn. I always wanted to study a computer related field and
-            become a game developer thanks to my love for video games. However,
-            lately my interests shifted towards web and mobile app development.
-            I am currently working at Coreva Scientific as an IT Assistant.
+            I am a software developer currently working at mgm technology partners as a frontend developer. I always wanted to study a computer related field and
+            become a game developer thanks to my love for video games. However, my interests shifted towards frontend development during my studies after working about usability and seeing that frontend development presents rather different challenges to developers such as creating user friendly interfaces, which actually seems easier than it is.
           </p>
         </div>
       </div>

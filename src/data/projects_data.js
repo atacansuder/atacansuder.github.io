@@ -1,37 +1,32 @@
 const projects = [
   {
-    title: "forza-garage",
-    technologies: ["Next.js", "Google Firebase", "Python"],
+    title: "Research Paper Library (Bachelor thesis - grade: 1,5)",
+    technologies: ["React", "Django"],
     description:
-      "A website for Forza Horizon players where they can share their custom tunes and designs. After thinking that the in-game filters are not enough and the browser is clunky and doesn't show enough information right away, I have started developing this website in order to create a platform where users can find tunes and designs faster and easier.\nThe website is still in development.",
-    links: [
-      {
-        label: "forza-garage",
-        link: "https://main.de8gx00iqrngf.amplifyapp.com/",
-      },
-    ],
-  },
-  {
-    title: "Research Paper Library Prototype",
-    technologies: ["React", "Google Firebase"],
-    description:
-      "A prototype website for entering researcher and research paper information in a database for a university project. This website allows users to create researcher profiles, enter data about a research paper and connect authors with papers.",
-    links: [
-      {
-        label: "Research Paper Input App",
-        link: "https://atacansuder.github.io/paper-viewer",
-      },
-    ],
+      "Prof. Matthew Smith's team from the University of Bonn wanted to develop a library where people can store and browse academic research data from cybersecurity related papers. The goal was to create a platform that is kind of similar to Google Scholar, but more specialized on cybersecurity and with more specific data.\nI have started with analyzing 40 research papers, finding what information they have in common and developed an appropriate database model. Afterwards, a Django backend was developed by Prof. Smith's team, which allowed users to enter data. However, Django's own admin interface is not very user friendly and intiutive to use, especially for complex data.\nThus, my primary goal was to develop a frontend to help users enter and browse data more efficiently. I have created an interface using React with Material UI components and extended the Django backend with Django REST framework to allow data exchange. The interface ended up saving around 30% of time compared to entering data in Django's admin interface.",
+    links: [],
   },
   {
     title: "Sklearn and Scikit Parser",
-    technologies: ["Python"],
+    technologies: ["Python", "git", "Jira"],
     description:
-      "For the software development group project at the university, I worked with 7 other students to develop a Python software for Sklearn and Scikit libraries that detects errors and redundancies in user code that might not be detected by compilers.",
+      "For the software development group project at the university, I worked with 7 other students to develop a Python software for Sklearn and Scikit libraries that detects errors and redundancies in user code that might not be detected by compilers. We have worked with real customers from the academic world. Agile methodologies were also used during development, helping us understand the management and teamwork aspect of software development.",
     links: [
       {
         label: "Project's GitHub repository",
         link: "https://github.com/AST-2020/python-package-parser",
+      },
+    ],
+  },
+  {
+    title: "forza-garage",
+    technologies: ["Next.js", "Google Firebase", "Python"],
+    description:
+      "Forza Horizon is a racing video game series where users can modify and tune their own cars to race against other players. The modification and tuning is quite complex with many parameters, which pushes a lot of players to using tunes from other players. I have created this website to help tuners share their creations and players to browse in an environment better than Forza Horizon's own tune browser. The website's goal is to use more filters and data to help players find a tune that they exactly need and to allow them to see more information before deciding if the tune would indeed suit their needs.\nThe website is discontinued after low popularity. But at least it was a good development experience for me.",
+    links: [
+      {
+        label: "forza-garage",
+        link: "https://www.forzagarage.net",
       },
     ],
   },
